@@ -1,0 +1,25 @@
+/*geral*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    color: white;
+    border: none;
+}
+
+body{
+    background-image: url('../_imagens/meioambiente.jpg');
+    background-size: cover;
+    background-position-y: -450px;
+
+}
+
+#login-container{
+    text-align: center;
+}
+
+a:link{
+    text-decoration: none;
+}

@@ -1,0 +1,100 @@
+@charset "UTF-8";
+body h1 {
+    font-family: Arial;
+    font-size: 35pt;
+    color: yellowgreen;
+    position: absolute;
+    margin-top: 0%;
+    left: 100px;
+}
+
+body h2 {
+    font-family: Arial;
+    font-size: 35pt;
+    color: white;
+}
+
+/* Formatacao de imagens */
+
+figure.foto-legenda img {
+    width: 102.5%;
+    height: 89%;
+    position: absolute;
+    top: 80px;
+    left: -40px;
+}
+
+figure.foto-legenda figcaption {
+    position: absolute;
+    top: 180px;
+    left: 110px;
+}
+
+/* Formatação do menu */
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    font-family: Arial;
+    font-size: 12pt;
+    list-style: none;
+    position: absolute;
+    margin-top: 0%;
+    left: 380px;  
+}
+
+nav#menu li {
+    display: inline-block;
+    padding: 20px;
+    margin: 0px;
+}
+
+nav#menu li:hover {
+    color: yellowgreen;
+    animation: btn-anim1 1s linear;
+    cursor: pointer;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+/* Formatação do menu 2 */
+
+nav#menu2 {
+    display: block;
+}
+
+nav#menu2 ul {
+
+    font-family: Arial;
+    font-size: 12pt;
+    list-style: none;
+    position: absolute;
+    margin-top: 0%;
+    right: 200px;
+}
+
+nav#menu2 li {
+
+    display: inline-block;
+    padding: 20px;
+    margin: 0px; 
+
+}
+
+nav#menu2 li:hover {
+
+    color: yellowgreen;
+    animation: btn-anim1 1s linear;
+    animation-timing-function: ease-out;
+    cursor: pointer;
+    
+}
+
+nav#menu2 h2 {
+
+    display: none;
+}
